@@ -141,5 +141,6 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
 	    ssh-add
 fi
 
+eval "$(starship init bash)"
 [[ ! ${BLE_VERSION-} ]] || ble-attach
 
